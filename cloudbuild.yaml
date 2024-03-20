@@ -22,8 +22,6 @@ steps:
       - '--allow-unauthenticated'  # Optional: If your app doesn't require authentication
       - '--port'
       - '3000'  # Specify the port to expose
-      - '--roles'
-      - 'run.admin'
 #      - '--set-env-vars'  # Add any necessary environment variables
 #      - 'KEY1=VALUE1,KEY2=VALUE2'
 
