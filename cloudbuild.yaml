@@ -18,7 +18,7 @@ steps:
       - '--platform'
       - 'managed'
       - '--region'
-      - '${_REGION}'      # Use a dynamically-set region for flexibility
+      - 'us-central1'      # Use a dynamically-set region for flexibility
       - '--allow-unauthenticated'  # Optional: If your app doesn't require authentication
       - '--port'
       - '3000'  # Specify the port to expose
