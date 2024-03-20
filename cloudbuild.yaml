@@ -22,8 +22,8 @@ steps:
       - '--allow-unauthenticated'  # Optional: If your app doesn't require authentication
       - '--port'
       - '3000'  # Specify the port to expose
-      - '--set-env-vars'  # Add any necessary environment variables
-      - 'KEY1=VALUE1,KEY2=VALUE2'
+#      - '--set-env-vars'  # Add any necessary environment variables
+#      - 'KEY1=VALUE1,KEY2=VALUE2'
 
 images:
   - 'gcr.io/$PROJECT_ID/cac-simple-webapp:$COMMIT_SHA'
